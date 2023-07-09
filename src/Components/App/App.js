@@ -10,7 +10,7 @@ const App = () => {
     }
     return ( 
       <div className=" col-6 offset-3 p-5 bg-dark text-white mt-2 ">
-      <Person firstName={firstName} lastName={lastName} age={age} clickHandler={clickHandler} />
+      <Person firstName={firstName} lastName={lastName} age={age} />
       </div>  
     );
 };
